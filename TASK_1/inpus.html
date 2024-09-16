@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2 Inputs</title>
+    <script>
+      function disappearInput() {
+        document.getElementById("disappear").style.display = "none";
+      }
+    </script>
+  </head>
+  <body>
+    <label>Disappearing Input:</label>
+    <input type="text" id="disappear" onfocus="disappearInput()" /><br /><br />
+
+    <label>Non-Editable Input:</label>
+    <input type="text" value="Non-editable field" readonly /><br />
+  </body>
+</html>
